@@ -37,12 +37,12 @@ const Tracker: React.FC = () => {
       <div className="tracker-container" style={{ flex: 1, padding: '20px' }}>
         {isQuestionPage && (
           <div className="floating-button-group">
-            <button className="icon-button">
+
+            {/* <button className="icon-button">
               <FaPlusCircle /> Add Question
-            </button>
-            <button className="icon-button">
-              <FaPlusCircle /> Add Category
-            </button>
+            </button> */}
+
+          
           </div>
         )}
 
